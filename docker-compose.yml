@@ -1,0 +1,27 @@
+version: "3.9"
+services:
+  openldap:
+    image: "osixia/openldap:1.5.0"
+    container_name: openldap
+    hostname: openldap
+    command: --copy-service   
+    ports:
+      - "389:389"
+      - "636:636"
+    volumes:
+      - ./openldap/create_ou_users.ldif:/container/service/slapd/assets/config/bootstrap/ldif/create_ou_users.ldif 
+      - /var/lib/ldap
+      - /etc/ldap/slapd.d
+      - /container/service/slapd/assets/certs/
+    environment:
+      LDAP_ORGANISATION: "My Company"
+      LDAP_DOMAIN: "techinterview.com"
+      LDAP_ADMIN_PASSWORD: "123456"
+  spring-api:
+    container_name: spring-api
+    build: ./spring-api/techinterview
+    image: spring-api:lastest
+    ports:
+      - 8080:8080
+    depends_on:
+      - openldap
