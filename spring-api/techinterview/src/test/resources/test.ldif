@@ -1,0 +1,24 @@
+version: 1
+dn: ou=Users,dc=techinterview,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: Users
+
+dn: uid=test1,ou=Users,dc=techinterview,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Test1-cn
+sn: Test1-sn
+uid: test1
+
+dn: uid=test2,ou=Users,dc=techinterview,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Test2-cn
+sn: Test2-sn
+uid: test2
+

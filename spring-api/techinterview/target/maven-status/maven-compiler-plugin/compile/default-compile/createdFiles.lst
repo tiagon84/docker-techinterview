@@ -1,0 +1,7 @@
+com\acme\techinterview\config\WebConfig.class
+com\acme\techinterview\model\User.class
+com\acme\techinterview\TechinterviewApplication.class
+com\acme\techinterview\repository\UserRepository.class
+com\acme\techinterview\controller\UserController.class
+com\acme\techinterview\service\UserService.class
+com\acme\techinterview\controller\HomeController.class
