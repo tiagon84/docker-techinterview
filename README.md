@@ -40,4 +40,4 @@ http://localhost:8080/swagger-ui.html
 
 ## Authors
 
-[Tiago Norberto](linkedin.com/in/tiago-norberto-3a219b42)
+[Tiago Norberto](https://linkedin.com/in/tiago-norberto-3a219b42)
