@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserRepository extends LdapRepository<User> {
 
-    User getUserByUid(String uid);
+  User getUserByUid(String uid);
 }

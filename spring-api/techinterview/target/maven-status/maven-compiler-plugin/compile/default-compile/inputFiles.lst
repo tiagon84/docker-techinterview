@@ -1,7 +1,8 @@
 C:\Users\tiago\DEVELOP\projetos\docker-techinterview\spring-api\techinterview\src\main\java\com\acme\techinterview\repository\UserRepository.java
 C:\Users\tiago\DEVELOP\projetos\docker-techinterview\spring-api\techinterview\src\main\java\com\acme\techinterview\TechinterviewApplication.java
 C:\Users\tiago\DEVELOP\projetos\docker-techinterview\spring-api\techinterview\src\main\java\com\acme\techinterview\model\User.java
-C:\Users\tiago\DEVELOP\projetos\docker-techinterview\spring-api\techinterview\src\main\java\com\acme\techinterview\controller\HomeController.java
-C:\Users\tiago\DEVELOP\projetos\docker-techinterview\spring-api\techinterview\src\main\java\com\acme\techinterview\config\WebConfig.java
+C:\Users\tiago\DEVELOP\projetos\docker-techinterview\spring-api\techinterview\src\main\java\com\acme\techinterview\exception\UserNotFoundException.java
+C:\Users\tiago\DEVELOP\projetos\docker-techinterview\spring-api\techinterview\src\main\java\com\acme\techinterview\exception\GlobalControllerExceptionHandler.java
+C:\Users\tiago\DEVELOP\projetos\docker-techinterview\spring-api\techinterview\src\main\java\com\acme\techinterview\config\WebSecurityConfig.java
 C:\Users\tiago\DEVELOP\projetos\docker-techinterview\spring-api\techinterview\src\main\java\com\acme\techinterview\service\UserService.java
 C:\Users\tiago\DEVELOP\projetos\docker-techinterview\spring-api\techinterview\src\main\java\com\acme\techinterview\controller\UserController.java

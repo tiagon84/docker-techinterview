@@ -1,6 +1,7 @@
 package com.acme.techinterview.service;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.times;
@@ -16,9 +17,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.mockito.stubbing.OngoingStubbing;
 
 
 @RunWith(MockitoJUnitRunner.class)
@@ -73,6 +72,7 @@ public class UserServiceTest {
     String uid = "chef";
     String firstName = "Chef";
     String lastName = "";
+    String passWord = "chef";
 
     User u = new User(uid, firstName, lastName);
     when(userRepository.save(any(User.class))).thenReturn(u);
